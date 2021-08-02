@@ -18,17 +18,17 @@
 -include device/gigaset/mt6763-common/BoardConfigCommon.mk
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE += GS290,yggdrasil
+TARGET_OTA_ASSERT_DEVICE += GX290,yggdrasilx
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 320
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/gigaset/mt6763
-TARGET_KERNEL_CONFIG := gs290_defconfig
+TARGET_KERNEL_SOURCE := kernel/gigaset/gx290
+TARGET_KERNEL_CONFIG := gx290_defconfig
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
--include vendor/gigaset/GS290-unified/BoardConfigVendor.mk
+-include vendor/gigaset/GX290-unified/BoardConfigVendor.mk

@@ -32,13 +32,13 @@
          Note that a physical cutout should be configured in pixels for the best results.
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M -140,0 L -140,85 L 140,85 L 140,0 Z
+        M -140,0 L -140,50 L 140,50 L 140,0 Z
     </string>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">85.0px</dimen>
+    <dimen name="status_bar_height_portrait">50.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
-    <dimen name="rounded_corner_radius_top">106.0px</dimen>
-    <dimen name="rounded_corner_radius_bottom">108.0px</dimen>
+    <dimen name="rounded_corner_radius_top">144.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">128.0px</dimen>
 
 </resources>

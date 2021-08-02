@@ -24,8 +24,8 @@ fi
 set -e
 
 # Required!
-export DEVICE=GS290-unified
-export DEVICE_HEADER="GS290 yggdrasil"
+export DEVICE=GX290-unified
+export DEVICE_HEADER="GX290 yggdrasil"
 export DEVICE_COMMON=mt6763-common
 export VENDOR=gigaset
 

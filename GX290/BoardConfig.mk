@@ -16,6 +16,6 @@
 
 BOARD_VENDOR := gigaset
 
-DEVICE_PATH := device/gigaset/GS290-unified
+DEVICE_PATH := device/gigaset/GX290-unified
 
 -include $(DEVICE_PATH)/BoardConfig.mk

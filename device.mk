@@ -15,11 +15,11 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/gigaset/GS290-unified/GS290-unified-vendor.mk)
+$(call inherit-product-if-exists, vendor/gigaset/GX290-unified/GX290-unified-vendor.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1560
+TARGET_SCREEN_WIDTH := 720
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

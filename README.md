@@ -1,6 +1,6 @@
 Copyright 2020 - The LineageOS Project
 
-Device configuration for Gigaset GS290 (GS290)
+Device configuration for Gigaset GX290 (GX290)
 ==================================
 
 Basic   | Spec Sheet
@@ -8,14 +8,14 @@ Basic   | Spec Sheet
 CPU     | Octa-core 2.0 GHz Cortex-A53
 CHIPSET | Mediatek Helio P23 (MT6763V)
 GPU     | Mali-G71 MP2
-Memory  | 4GB
+Memory  | 3/4GB
 Shipped Android Version | 9.0 (Pie)
 Internal Storage | 64GB
 microSD | Up to 1 TB (dedicated slot)
-Battery | 4700 mAh
+Battery | 6200 mAh
 Dimensions | 162.4 x 79 x 15.3 mm
-Display | 2340 x 1080 pixels, 6.3-inch IPS LCD
-Rear Camera  | 16/2 MP (f/1.8, 1.25µm, PDAF)
-Front Camera | 16 MP 1.12µm, HDR
+Display | 1560 x 720 pixels, 6.1-inch IPS LCD
+Rear Camera  | 13/2 MP (f/2.0, CMOS)
+Front Camera | 8 MP
 
-![Gigaset GS290](https://www.gigaset.com/media/catalog/product/s/m/smartphone-display-gs290_anthrazit_2020_low-res_1.jpg "Gigaset GS290")
+![Gigaset GX290](https://www.gigaset.com/media/catalog/product/cache/36/image/1800x/040ec09b1e35df139433887a97daa66f/g/x/gx290-plus_back_front_low-res_1.jpg "Gigaset GX290")

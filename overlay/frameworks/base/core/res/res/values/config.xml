@@ -38,7 +38,7 @@
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">50.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
-    <dimen name="rounded_corner_radius_top">144.0px</dimen>
-    <dimen name="rounded_corner_radius_bottom">128.0px</dimen>
+    <dimen name="rounded_corner_radius_top">60.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">60.0px</dimen>
 
 </resources>

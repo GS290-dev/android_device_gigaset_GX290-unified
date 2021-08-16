@@ -25,7 +25,7 @@ set -e
 
 # Required!
 export DEVICE=GX290-unified
-export DEVICE_HEADER="GX290 yggdrasil"
+export DEVICE_HEADER="GX290 yggdrasilx"
 export DEVICE_COMMON=mt6763-common
 export VENDOR=gigaset
 

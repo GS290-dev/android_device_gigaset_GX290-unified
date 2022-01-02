@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,22 +14,6 @@
 # limitations under the License.
 #
 
-# Vendor blobs
-$(call inherit-product-if-exists, vendor/gigaset/GX290-unified/GX290-unified-vendor.mk)
-
-# Properties
--include $(LOCAL_PATH)/properties.mk
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1560
-TARGET_SCREEN_WIDTH := 720
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
-# Inherit from gigaset mt6763-common
-$(call inherit-product, device/gigaset/mt6763-common/common.mk)
+# Camera
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    vendor.debug.camera.bgservice.mode=2

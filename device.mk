@@ -17,6 +17,9 @@
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/gigaset/GX290-unified/GX290-unified-vendor.mk)
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 

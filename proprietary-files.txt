@@ -470,6 +470,7 @@ vendor/firmware/WMT_SOC.cfg
 
 # Firmware (WIFI)
 vendor/firmware/WIFI_RAM_CODE_6755
+vendor/firmware/wifi_fw.cfg
 
 # GPS
 vendor/bin/hw/android.hardware.gnss@2.0-service-mediatek
@@ -640,6 +641,7 @@ vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # NFC
 vendor/firmware/st21nfc_fw7.bin
+vendor/firmware/st21nfc_fw.bin
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
